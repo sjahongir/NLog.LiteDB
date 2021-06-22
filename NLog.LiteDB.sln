@@ -1,14 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.438
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NLog.LiteDB", "NLog.LiteDB\NLog.LiteDB.csproj", "{25296700-0BDD-40A7-9445-377F10C9661F}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NLog.LiteDB.Specs", "NLog.LiteDB.Specs\NLog.LiteDB.Specs.csproj", "{712F0A62-7C1D-4BDF-9651-72505B2600A1}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExampleApp", "ExampleApp\ExampleApp.csproj", "{9C4B4E4A-B0B6-4667-93A7-50914C10688D}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A9027E2B-F9A4-4C75-A47D-B8083F7E8BB8}"
 	ProjectSection(SolutionItems) = preProject
 		.gitattributes = .gitattributes
@@ -18,24 +12,18 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		README.md = README.md
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NLog.LiteDB", "NLog.LiteDB\NLog.LiteDB.csproj", "{3C847E52-0110-4ACB-BDB0-4B43DF98022F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{25296700-0BDD-40A7-9445-377F10C9661F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{25296700-0BDD-40A7-9445-377F10C9661F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{25296700-0BDD-40A7-9445-377F10C9661F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{25296700-0BDD-40A7-9445-377F10C9661F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{712F0A62-7C1D-4BDF-9651-72505B2600A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{712F0A62-7C1D-4BDF-9651-72505B2600A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{712F0A62-7C1D-4BDF-9651-72505B2600A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{712F0A62-7C1D-4BDF-9651-72505B2600A1}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9C4B4E4A-B0B6-4667-93A7-50914C10688D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9C4B4E4A-B0B6-4667-93A7-50914C10688D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9C4B4E4A-B0B6-4667-93A7-50914C10688D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9C4B4E4A-B0B6-4667-93A7-50914C10688D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C847E52-0110-4ACB-BDB0-4B43DF98022F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C847E52-0110-4ACB-BDB0-4B43DF98022F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C847E52-0110-4ACB-BDB0-4B43DF98022F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C847E52-0110-4ACB-BDB0-4B43DF98022F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

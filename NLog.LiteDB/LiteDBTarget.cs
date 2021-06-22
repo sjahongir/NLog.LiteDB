@@ -40,7 +40,7 @@ namespace NLog.LiteDB
         
         /// The filename as target
         /// </summary>
-        private static readonly ConcurrentDictionary<string, LiteCollection<BsonDocument>> _collectionCache = new ConcurrentDictionary<string, LiteCollection<BsonDocument>>();
+        private static readonly ConcurrentDictionary<string, ILiteCollection<BsonDocument>> _collectionCache = new ConcurrentDictionary<string, ILiteCollection<BsonDocument>>();
 
         /// <summary>
         /// Initializes a new instance of the <see cref="LiteDBTarget"/> class.
@@ -521,7 +521,7 @@ namespace NLog.LiteDB
             return new BsonValue(value);
         }
 
-        private LiteCollection<BsonDocument> GetCollection()
+        private ILiteCollection<BsonDocument> GetCollection()
         {
             // cache lite collection based on target name.
             string key = string.Format("k|{0}|{1}|{2}",
